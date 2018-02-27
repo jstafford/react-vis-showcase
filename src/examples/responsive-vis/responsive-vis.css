@@ -1,0 +1,34 @@
+.responsive-vis-example {
+  display: flex;
+  flex-direction: column; }
+  .responsive-vis-example .responsive-controls {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; }
+  .responsive-vis-example .chart-type-selector {
+    display: flex;
+    justify-content: space-around; }
+    .responsive-vis-example .chart-type-selector * {
+      cursor: pointer; }
+  .responsive-vis-example .selected-chart-type {
+    font-weight: 600;
+    text-decoration: underline; }
+  .responsive-vis-example .responsive-vis {
+    display: flex;
+    justify-content: center; }
+  .responsive-vis-example .responsive-bar-chart {
+    display: flex;
+    justify-content: center; }
+    .responsive-vis-example .responsive-bar-chart .rv-hint {
+      color: #000; }
+  .responsive-vis-example .points-per-pixel-label {
+    font-size: 32px;
+    white-space: nowrap; }
+  .responsive-vis-example .features-label {
+    font-size: 24px;
+    white-space: nowrap; }
+  .responsive-vis-example .controls-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%; }
