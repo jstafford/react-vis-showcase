@@ -1,7 +1,9 @@
 {
   "name": "react-vis-showcase",
+  "description": "Showcase of react-vis components",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "d3-force": "^1.1.0",
     "d3-random": "^1.1.0",
